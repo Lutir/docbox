@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+           <title>DocBox - A Practice Management Platform for doctors</title>
+           <meta http-equiv="Expires" content="30" />
+        <meta property="og:description" content="DocBox is an easy to use practice management platform. Tailored especially for healthcare professionals and medicine students." />
+		<meta content="DocBox,doctor,cloud storage, practice management" name="keywords">
+        	<meta property="og:url"content="index.html" />
+        <meta content="DocBox is an easy to use practice management platform. Tailored especially for healthcare professionals and medicine students. " name="description">
+        	<meta property="og:title" content="DocBox - Practice Management Platform" />
+        	
+        	<meta property="og:image" content="images/512.png" />
+        <!-- CSS -->
+        <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">         -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-dropdown.css">
+        <link rel="stylesheet" href="typicons/typicons.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/form-elements.css">
+        <link rel="stylesheet" href="css/style-home.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="images/512.png">
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+ -->
+    </head>
+
+    <body>
+    
+        <!-- Loader -->
+    	<!-- <div class="loader">
+    		<div class="loader-img"></div>
+    	</div> -->
+				
+        <!-- Top content -->
+        <div class="top-content">
+        	
+        	<!-- Top menu -->
+			<nav class="navbar navbar-inverse navbar-no-bg" role="navigation" >
+				<div class="container">
+					<div class="navbar-header">
+						<button id ="login" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand"> 
+						<img src="assets/img/logo.png" width="140px;" class="img-responsive" alt="Image">
+						</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="top-navbar-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="beforeClick"><a class="scroll-link" href="#features">Features</a></li>
+							<li class="beforeClick"><a class="scroll-link" href="#how-it-works">How it works</a></li>
+							<li class="beforeClick"><a class="scroll-link" href="#pricing">Price</a></li>
+							<li class="beforeClick"><a class="scroll-link" href="#about-us">About</a></li>
+							<li class="beforeClick"><a class="scroll-link" href="#testimonials">Testimonials</a></li>
+							<li class="beforeClick"><a  class="btn btn-link-2 showLogin" href="#">Login</a></li>
+														
+							<li class="afterClick"><input type="text" name="email" id="email" placeholder="Email Id"></li>
+							<li class="afterClick"><input type="text" name="phoneNumber" id="phoneNumber" placeholder="Mobile Number"></li>
+							<li class="afterClick"><button class="btn btn-link-2 otp" id = "login" href="#">Login</button></li>
+							
+							<li class="newregister"><a  class="btn scroll-link"  href="#register">New USer? Register Here</a></li>
+							
+							<li class="afterClick no-hover">
+								<a class="scroll-link close" href="#">
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7 text">
+                            <h1 class="wow fadeInLeftBig">Manage your profession,<br> <strong>professionally</strong></h1>
+                            <div class="description wow fadeInLeftBig">
+                            	<p>
+	                            	DocBox is an easy to use practice management platform. Tailored especially for healthcare professional and medicine students.
+                            	</p>
+                            </div>
+                            <div class="top-big-link wow fadeInUp">
+                            	<a class="btn btn-link-1 scroll-link" href="#pricing">Our prices</a>
+                            	<a class="btn btn-link-2 scroll-link" href="#features">Learn more</a>
+                            </div>
+							  <div class=" wow fadeInUp" style="margin-top:140px">
+							 	<a href="https://play.google.com/store/apps/details?id=com.elune.sajid.myapplication&amp;hl=en">
+  <img src="images/playbutton.png" alt="HTML tutorial" style="width:150px;border:0;margin-right:5px;">
+</a>
+                            	<a href="https://itunes.apple.com/us/app/docbox-elune/id1147672610?ls=1&amp;mt=8">
+  <img src="images/appstore.png" alt="HTML tutorial" style="width:150px;border:0;margin-left:5px;">
+</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 form-box wow register-container fadeInUp">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>Sign up now</h3>
+                            		<p>Fill in the form to register as a new user </p>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<span aria-hidden="true" class="typcn typcn-pencil"></span>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="name">First name</label>
+			                        	<input type="text" name="name" placeholder="Full name..." class="form-first-name form-control" id="name">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="email">Email Id</label>
+			                        	<input type="text" name="email" placeholder="Email Id..." class="form-last-name form-control" id="email1">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="phNo">Phone Number</label>
+			                        	<input type="number" name="phNo" placeholder="Mobile Number(without country or area code)" class="form-email form-control" id="phNo" min="100000000" max="99999999999">
+			                        </div>
+			                        <div class="form-group" style="color:black;">
+			                        	<select id="speciality" name="speciality" class="selectpicker">
+			                        	        <!-- <option>region 1</option>
+			                        	        <option>region 2</option>
+			                        	        <option>region 3</option> -->
+			                        	</select>
+			                        </div>
+			                        <div class="form-group">
+			                        	<h4 class="heading" style="color:#777;font-weight:600;">Type of Applicant:</h4>
+												<div class="radioContainer">
+												  <div class="radio">
+												    <label>
+												      <input type="radio" name="optionsRadios" id="doctorParam" value="option1" checked>
+												      <span>Doctor</span>
+												    </label>
+												  </div>
+												  <div class="radio">
+												    <label>
+												      <input type="radio" name="optionsRadios" id="studentParam" value="option2">
+												      <span>Medical Student / Research Scholar</span>
+												    </label>
+												  </div>
+												  
+												</div>
+			                        </div>
+			                        <button type="buttom" class="btn otp1">New User Register</button>
+			                       <div class="form-links">
+			                        	<small style="font-size:11px;">*By Registering to us you agree to our 
+			                        		<a href="sajid/privacyWeb.html">Privacy policy</a>  and 
+			                        		<a href="sajid/termsWeb.html">Terms of Use</a>.</small>
+			                        </div>			                    
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Features -->
+        <div class="features-container section-container" id ="features_mail">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 features section-description wow fadeIn">
+	                    <h2>What's included</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 features-box features-box-gray wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/easy_to_use.svg" width="75px" /></span>
+	                	</div>
+	                    <h3>Easy To Use</h3>
+	                    <p class="padd">Intuitive appearance for easy interaction. Customizable account for various specializations and personal choices</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInDown">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/management.svg" width="75px" /></span>
+	                	</div>
+	                    <h3>Patient Management</h3>
+	                    <p class="padd">Save all your patients. See your entire practice journey - across web and mobile - take actions to get results</p>
+                    </div>
+                    <div class="col-sm-4 features-box features-box-gray wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/secure_cloud.svg" width="75px" /></span>
+	                	</div>
+	                    <h3>Secure Storage</h3>
+	                    <p class="padd">Sync up all your reports, prescriptions, invoices, etc. on our cloud servers and choose what to share with your patients</p>
+                    </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/reach.svg" width="100px" /></span>
+	                	</div>
+	                    <h3>Increase Your Reach</h3>
+	                    <p class="padd">Free messaging connectivity with your patients. Broadcast upcoming events and updates as per your ease</p>
+                    </div>
+                    <div class="col-sm-4 features-box features-box-gray wow fadeInDown">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/app.svg" width="100px" /></span>
+	                	</div>
+	                    <h3>Mobile App</h3>
+	                    <p class="padd">Carry your achievements with you - anywhere, anytime. Access a ton of useful features from a single app</p>
+                    </div>
+                    <div class="col-sm-4 features-box wow fadeInUp">
+	                	<div class="features-box-icon">
+	                		<span aria-hidden="true"><img src="images/appointment.svg" width="100px" /></span>
+	                	</div>
+	                    <h3>Online Appointments</h3>
+	                    <p class="padd">Establish your presence on the world map. Hassle free appointment bookings, cancellations and follow-ups</p>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
+                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- More features -->
+        <div class="more-features-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 more-features section-description wow fadeIn">
+	                    <h2>More features</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-5 more-features-box wow fadeInLeft">
+	                    <img src="assets/img/devices/pc.png" alt="">
+	                </div>
+	                <div class="col-sm-7 more-features-box wow fadeInUp">
+	                    <div class="more-features-box-text">
+	                    	<div class="more-features-box-text-icon">
+	                    		<span aria-hidden="true" class="typcn typcn-attachment"></span>
+	                    	</div>
+	                    	<h3>Add Helpers/Assistants</h3>
+	                    	<div class="more-features-box-text-description">
+	                    		Add your assistants to assist you with your practice and hence save your precious time and effort
+	                    	</div>
+	                    </div>
+	                    <div class="more-features-box-text">
+	                    	<div class="more-features-box-text-icon">
+	                    		<span aria-hidden="true" class="typcn typcn-user"></span>
+	                    	</div>
+	                    	<h3>Multimedia Support</h3>
+	                    	<div class="more-features-box-text-description">
+	                    		Showcasing your clinical work in conferences and journals made easy (Supports all major platforms)
+	                    	</div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- Always beautiful -->
+        
+        
+        <!-- How it works -->
+        <div class="how-it-works-container section-container section-container-image-bg" id ="how_it_works">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 how-it-works section-description wow fadeIn">
+	                    <h2>Ready in 4 steps</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-pencil"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">1</span>
+	                	</div>
+	                    <h3>Sign up</h3>
+	                    <p>Get your 1 month free trial right away</p>
+                    </div>
+
+                    <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInUp">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-key-outline"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">2</span>
+	                	</div>
+	                    <h3>Log in</h3>
+	                    <p>Login to your personal environment</p>
+                    </div>
+
+                    
+                </div>
+                <div class="row">
+
+                   
+
+                    <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-thumbs-up"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">3</span>
+	                	</div>
+	                    <h3>Start Using</h3>
+	                    <p>Explore the benefits of having useful features with you</p>
+                    </div>
+
+                     <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
+	                	<div class="how-it-works-box-icon">
+	                		<span aria-hidden="true" class="typcn typcn-ticket"></span>
+	                		<span aria-hidden="true" class="how-it-works-step">4</span>
+	                	</div>
+	                    <h3>Make payment</h3>
+	                    <p>Higher standards on lower prices<br><small><i>Avail 50% off on subscription packs (early-bird offer)</i></small></p>
+                    </div>
+
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
+                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+
+		<!-- Pricing -->
+        <div class="pricing-container section-container hidden-xs" id ="pricing">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 pricing section-description wow fadeIn">
+	                    <h2>Pricing</h2>
+	                   <h6> <a href="sajid/return_policy.html">(Refund Policy)</a></h6>
+	                    
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row" >
+	            	<div class="col-sm-9 text-center pricing-box-best fadeInDown wow" style="padding:15px 0px 15px 0px ;margin:0px;">
+	            		<div style="background:#019299;padding:15px 15px 15px 15px;">
+	            			<h3 style="color:#fff;padding-left:15px;margin:0px;">For Doctors</h3>
+	            		</div>
+	            	</div>
+	            	<div class="col-sm-3 pricing-box-best fadeInUp wow" style="padding:15px 0px 15px 15px ;margin:0px;">
+	            		<div style="background:#eee;padding:15px 15px 15px 15px;">
+	            			<h3 style="padding-left:15px;margin:0px;">For Students</h3>
+	            		</div>
+	            	</div>
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-3 pricing-box wow fadeInUp">
+                		<div class="pricing-box-inner">
+		                	<div class="pricing-box-price"><span>Rs. </span><strong>500<sup>*</sup></strong><span> per month</span>
+							<h6>*(50% Early Offer on Rs. 1000 per month)</h6>
+							</div>
+							
+		                    <h3>Basic</h3>
+		                    <h4>TRY IT OUT</h4>
+		                    
+		                    
+	                    </div>
+                    </div>
+                    <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown">
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price">
+		                		<span>Rs. </span><strong>2500<sup>*</sup></strong><span>per <span style="font-size:22px;"> 6</span> months</span>
+								<h6>*(50% Early Offer on  Rs. 5000 per 6 months)</h6>
+		                		<div class="pricing-box-icon">
+			                		<span aria-hidden="true" class="typcn typcn-star"></span>
+			                	</div>
+		                	</div>
+		                    <h3>Ultimate</h3>
+		                    <h4>1 Month Free (Best value)</h4>
+		                    
+		                    
+		                </div>
+                    </div>
+                    <div class="col-sm-3 pricing-box wow fadeInUp">
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price"><span>Rs. </span><strong>5000<sup>*</sup></strong><span>per year</span>
+							<h6>*(50% Early Offer on Rs. 10000 per year)</h6>
+							</div>
+		                    <h3>Platinum</h3>
+		                    <h4>2 Months Free (Enterprise)</h4>
+		                    
+		                    
+		                </div>
+                    </div>
+                    <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown" style="padding-left:15px;">
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price" style="font-size:34px">
+		                		<strong>FREE</strong>
+		                		<h6>limited Early Offer</h6>
+		                	</div>
+		                    <h3>Ultimate</h3>
+		                    <h4>Student Version</h4>
+		                    <!-- <div class="pricing-box-features">
+		                    	<ul>
+		                    		<li>3000 video lessons</li>
+		                    		<li>2x speed</li>
+		                    		<li>2000 solved exercises</li>
+		                    		<li>500MB to save your code</li>
+		                    		<li>900 hours of support</li>
+		                    	</ul>
+		                    </div> -->
+		                    
+		                </div>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-9">
+	            		<div class="pricing-box-features">
+		                    	<ul>
+		                    		<li><font color= '#76FF03'>&#x2713 </font>Secure Cloud Storage</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Offline Mode</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Unlimited Patients</li>
+		                    		
+		                    		<li><font color= '#76FF03'>&#x2713 </font>Free broadcast messages</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Online Appointments</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Add helpers/ Assistants</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Standard Prescriptions</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Discharge Cards</li>
+		                    	</ul>
+		                    </div> 
+	            	</div>
+	            	<div class="col-sm-3" style="padding-left:15px;">
+	            		<div class="pricing-box-features">
+		                    	<ul>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Secure Cloud Storage</li>
+		                    		<li><font color= '#76FF03'>&#x2713 </font> Offline Mode</li>
+		                    		<li><font color="red">&#x2717 </font>Unlimited Patients (upto 100)</li>
+		                    		
+		                    		<li><font color="red">&#x2717 </font> Free broadcast messages</li>
+		                    		<li><font color="red">&#x2717 </font> Online Appointments</li>
+		                    		<li><font color="red">&#x2717 </font> Add helpers/ Assistants</li>
+		                    		<li><font color="red">&#x2717 </font> Standard Prescriptions</li>
+		                    		<li><font color="red">&#x2717 </font> Discharge Cards</li>
+		                    	</ul>
+		                    </div> 
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        <!-- mobile view -->
+        <div class="pricing-container section-container visible-xs">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 pricing section-description wow fadeIn">
+	                    <h2>Pricing</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row" >
+	            	<div class="col-sm-9 text-center pricing-box-best fadeInDown wow" style="padding:10px 0 10px 0">
+	            		<div style="background:#019299;padding:15px 15px 15px 15px;">
+	            			<h3 style="color:#fff;padding-left:15px;margin:0px;">For Doctors</h3>
+	            		</div>
+	            	</div>
+	            	
+	            </div>
+	            <div class="row">
+                	<div class="col-sm-3 pricing-box wow fadeInUp">
+                		<div class="pricing-box-inner">
+		                	<div class="pricing-box-price"><span>&#8377; </span><strong>250</strong><span> / month</span></div>
+		                    <h3>Basic</h3>
+		                    <h4>TRY IT OUT</h4>
+		                    
+		                    
+	                    </div>
+                    </div>
+                    <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown">
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price">
+		                		<span>&#8377; </span><strong>1250</strong><span> <span style="font-size:22px;">/6</span> months</span>
+		                		<div class="pricing-box-icon">
+			                		<span aria-hidden="true" class="typcn typcn-star"></span>
+			                	</div>
+		                	</div>
+		                    <h3>Ultimate</h3>
+		                    <h4>Best value</h4>
+		                    
+		                    
+		                </div>
+                    </div>
+                    <div class="col-sm-3 pricing-box wow fadeInUp">
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price"><span>&#8377; </span><strong>2500</strong><span> <span style="font-size:22px;">/1</span> year</span></div>
+		                    <h3>Platinum</h3>
+		                    <h4>Big company</h4>
+		                    
+		                    
+		                </div>
+                    </div>
+                    <div class="col-sm-9" style="padding-bottom:25px;">
+	            		<div class="pricing-box-features">
+		                    	<ul>
+		                    		<li>&#x2713 Secure Cloud Storage</li>
+		                    		<li>&#x2713 Offline Mode</li>
+		                    		<li>&#x2713 Unlimited Patients</li>
+		                    		
+		                    		<li>&#x2713 Free broadcast messages</li>
+		                    		<li>&#x2713 Online Appointments</li>
+		                    		<li>&#x2713 Add helpers/ Assistants</li>
+		                    		<li>&#x2713 Standard Prescriptions</li>
+		                    		<li>&#x2713 Discharge Cards</li>
+		                    	</ul>
+		                    </div> 
+	            	</div>
+
+                    <div class="col-sm-3 pricing-box-best fadeInUp wow" style="padding:10px 0 10px 0">
+	            		<div style="background:#eee;padding:15px 15px 15px 15px;">
+	            			<h3 style="padding-left:15px;margin:0px;">For Students</h3>
+	            		</div>
+	            	</div>
+
+                    <div class="col-sm-3 pricing-box pricing-box-best wow fadeInDown" >
+                    	<div class="pricing-box-inner">
+		                	<div class="pricing-box-price" style="font-size:34px">
+		                		<strong>FREE</strong>
+		                		
+		                	</div>
+		                    <h3>Ultimate</h3>
+		                    <h4>BIGGER VERSION</h4>
+		                    <!-- <div class="pricing-box-features">
+		                    	<ul>
+		                    		<li>3000 video lessons</li>
+		                    		<li>2x speed</li>
+		                    		<li>2000 solved exercises</li>
+		                    		<li>500MB to save your code</li>
+		                    		<li>900 hours of support</li>
+		                    	</ul>
+		                    </div> -->
+		                    
+		                </div>
+                    </div>
+	            </div>
+	            <div class="row">
+	            	
+	            	<div class="col-sm-3" style="padding-left:15px;">
+	            		<div class="pricing-box-features">
+		                    	<ul>
+		                    		<li>&#x2713 Secure Cloud Storage</li>
+		                    		<li>&#x2713 Offline Mode</li>
+		                    		<li>&#x2717 Unlimited Patients (upto 100)</li>
+		                    		
+		                    		<li>&#x2717 Free broadcast messages</li>
+		                    		<li>&#x2717 Online Appointments</li>
+		                    		<li>&#x2717 Add helpers/ Assistants</li>
+		                    		<li>&#x2717 Standard Prescriptions</li>
+		                    		<li>&#x2717 Discharge Cards</li>
+		                    	</ul>
+		                    </div> 
+
+	            	</div>
+
+	            </div>
+
+	        </div>
+
+
+        </div>
+        
+        <!-- Call to action -->
+        <div class="call-to-action-container section-container section-container-image-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 call-to-action section-description wow fadeInLeftBig">
+	                    <h2>Contact Us</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <p>
+	                    	Feel free to leave a missed call on <a class="heading" style ="color:#FF9800;"> +91 7390894111</a> to recieve mobile app's link
+	                    </p>
+	                </div>
+	            </div>
+	            <div class="row">
+	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
+                        <a class="btn btn-link-1 scroll-link" href="#top-content">Sign up now</a>
+	            	</div>
+	            </div>
+	        </div>
+        </div>
+        
+        <!-- About us -->
+        <div class="about-us-container section-container" id ="about_us">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 about-us section-description wow fadeIn">
+	                    <h2>About us</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+				 <div class="col-sm-6 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/sajid.jpg" alt="" data-at2x="assets/img/about/2.html">
+		                	<div class="about-us-role">Technology and Execution</div>
+		                </div>
+	                    <h3>Sajid Islam</h3>
+	                    <p>Founder, CEO</p>
+	                    <div class="about-us-social">
+		                	<a href="https://www.facebook.com/sajid.the.one?fref=ts"><span class="typcn typcn-social-facebook"></span></a>
+		                	<a href="https://in.linkedin.com/in/sajid-islam-814194ab"><span class="typcn typcn-social-linkedin"></span></a>
+		                    <a href="https://twitter.com/Islam90Sajid"><span class="typcn typcn-social-twitter"></span></a>
+		                </div>
+	                </div>
+	                <!-- <div class="col-sm-3 about-us-box wow fadeInDown">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/1.jpg" alt="" data-at2x="assets/img/about/1.jpg">
+		                	<div class="about-us-role">Technology</div>
+		                </div>
+	                    <h3>Romi Chandra</h3>
+	                    <p>Founder, CTO</p>
+	                    <div class="about-us-social">
+		                	<a href="https://www.facebook.com/romi.chandra.7?fref=ts"><span class="typcn typcn-social-facebook"></span></a>
+		                	<a href="https://in.linkedin.com/in/romi-chandra-46727523"><span class="typcn typcn-social-linkedin"></span></a>
+		                    <a href="https://twitter.com/_romichandra_"><span class="typcn typcn-social-twitter"></span></a>
+		                </div>
+	                </div>
+	               
+	                <div class="col-sm-3 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/akram.jpg" alt="" data-at2x="assets/img/about/akram.jpg">
+		                	<div class="about-us-role">Designer</div>
+		                </div>
+	                    <h3>Akram Nawaaz</h3>
+	                    <p>Founder, Head of Design</p>
+	                    <div class="about-us-social">
+		                	<a href="https://www.facebook.com/akramnawaaz?fref=ts"><span class="typcn typcn-social-facebook"></span></a>
+		                	<a href="https://in.linkedin.com/in/akramnawaaz"><span class="typcn typcn-social-linkedin"></span></a>
+		                    <a href="https://twitter.com/aa30c03224a4422"><span class="typcn typcn-social-twitter"></span></a>
+		                </div>
+	                </div> -->
+	                <div class="col-sm-6 about-us-box wow fadeInUp">
+		                <div class="about-us-photo">
+		                	<img src="assets/img/about/4.jpg" alt="" data-at2x="assets/img/about/4.jpg">
+		                	<div class="about-us-role">Chief Consultant</div>
+		                </div>
+	                    <h3>Dr. Imran Akhtar</h3>
+	                    <h4>M.B.B.S, M.S.Ortho</h4>
+	                    <p>Founder, Managing Director</p>
+	                    <div class="about-us-social">
+		                	<a href="https://www.facebook.com/imran.akhtar.3304?fref=ts"><span class="typcn typcn-social-facebook"></span></a>
+		                	<a href="#"><span class="typcn typcn-social-linkedin"></span></a>
+		                    <a href="#"><span class="typcn typcn-social-twitter"></span></a>
+		                </div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials-container section-container section-container-gray-bg">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-12 testimonials section-description wow fadeIn">
+	                    <h2>Testimonials</h2>
+	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+	                	<div role="tabpanel">
+	                		<!-- Tab panes -->
+	                		<div class="tab-content">
+	                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
+	                					<div class="testimonial-icon">
+	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
+	                					</div>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="font-size:18px;">
+		                                	"I have complete account of my patients from Pre-op, Intra-op,Post-op & follow up status. Thanks to Docbox"<br>
+		                                	<div style="text-align:left"><a href="#" style="line-height:10px;"><p><b>Dr Amit Jaiswal</b></p>
+		                                	<small >
+<p>Consultant orthopaedic surgeon</p>
+<p>Orthomax hospital</p>
+<p>Varanasi</p></a></small></div>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade in " id="tab2">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
+	                					<div class="testimonial-icon">
+	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
+	                					</div>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="font-size:18px;">
+		                                	"Its very simple & easy to understand, even for those who are not used to Mobile Apps. Thanks to Docbox"<br>
+		                                	<div style="text-align:left"><a href="#" style="line-height:10px;"><p><b>Dr Yadvendra Singh</b></p>
+		                                	<small>
+		                                	
+<p> Medical director</p>
+<p> Sangam eye hospital </p>
+<p>Gorakhpur</p></a></small></div>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade in " id="tab3">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+	                					<div class="testimonial-icon">
+	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
+	                					</div>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="font-size:18px;">
+		                                	"Thesis work is too easy now, I can save patient's data related to my research paper"<br>
+		                                	<div style="text-align:left"><a href="#" style="line-height:10px;"><p><b>Dr Brijendra Mishra</b></p>
+		                                	<small>
+		                                	
+<p> PG student (general surgery)</p>
+<p> Brd medical college</p>
+<p>Gorakhpur</p></a></small></div>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade in " id="tab4">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
+	                					<div class="testimonial-icon">
+	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
+	                					</div>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="font-size:18px;">
+		                                	"Now in no time I can show my clinical work to new patients, make lectures in conferences. Thanks to Docbox"<br>
+		                                	<div style="text-align:left"><a href="#" style="line-height:10px;"><p><b>Dr Akhilesh Yadav</b></p>
+		                                	<small>
+		                                	
+<p> Consultant joint replacement surgeon </p>
+<p> Max hospital</p>
+<p>New Delhi</p></a></small></div>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			<div role="tabpanel" class="tab-pane fade in " id="tab5">
+	                				<div class="testimonial-image">
+	                					<img src="assets/img/testimonials/5.jpg" alt="" data-at2x="assets/img/testimonials/5.jpg">
+	                					<div class="testimonial-icon">
+	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
+	                					</div>
+	                				</div>
+	                				<div class="testimonial-text">
+		                                <p style="font-size:18px;">
+		                                	"Record keeping was never so easier, now I feel medicolegally more strong"<br>
+		                                	<div style="text-align:left"><a href="#" style="line-height:10px;"><p><b>Dr Ajmal hasan</b></p>
+		                                	<small>
+		                                	
+<p> DM (Gastro) </p>
+<p> Kanpur</p>
+</a></small></div>
+		                                </p>
+	                                </div>
+	                			</div>
+	                			
+	                			</div>
+	                		</div>
+	                		<!-- Nav tabs -->
+	                		<ul class="nav nav-tabs" role="tablist">
+	                			<li role="presentation" class="active">
+	                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			<li role="presentation">
+	                				<a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab"></a>
+	                			</li>
+	                			
+	                		</ul>
+	                	</div>
+	                </div>
+	            </div>
+	        </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+                    <div class="col-sm-12 footer-social">
+                    	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-linkedin"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-twitter"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-google-plus"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-instagram"></span></a>
+                    	<a href="#"><span class="typcn typcn-social-pinterest"></span></a>
+                    </div>
+	            </div>
+	            <div class="row">
+                    <div class="col-sm-12 footer-copyright">
+                    	&copy; Elune Technologies<a href="http://azmind.com/"></a>
+                    	<br>
+                    	<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=F2lZEHa5mRKVbwGk8CagLUlUEZESsrV00zZrkw1IQQlmUkze12VxFCMWWm87"></script></span>
+                    </div>
+
+                </div>
+	        </div>
+	        <div class="pull-right hidden-xs">
+                      <!-- <a href="https://www.pushchamp.com/?utm_source=referal_link" rel="nofollow" target="_blank"><img src="https://www.pushchamp.com/static/images/notif_referal.png" width="50" height="45" title="" alt="Communication Powered by Pushchamp"></a> -->
+                    </div>
+        </footer>
+        
+        
+        <!-- MODAL: Privacy policy -->
+        <div class="modal fade" id="modal-privacy" tabindex="-1" role="dialog" aria-labelledby="modal-privacy-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h2 class="modal-title" id="modal-privacy-label">Privacy policy</h2>
+        			</div>
+        			<div class="modal-body">
+        				
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        
+        <!-- MODAL: Frequent questions -->
+        <div class="modal fade" id="modal-faq" tabindex="-1" role="dialog" aria-labelledby="modal-faq-label" aria-hidden="true">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+        				</button>
+        				<h2 class="modal-title" id="modal-faq-label">Frequent questions</h2>
+        			</div>
+        			<div class="modal-body">
+        				
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn" data-dismiss="modal">Close</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <!-- modal for otp -->
+        <div class="modal fade" id="otpBox">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        				<h4 class="modal-title">OTP Verification</h4>
+        			</div>
+        			<div class="modal-body text-center" >
+        				 <h4>Enter OTP recieved in your mobile/Registered Email Address.</h4>
+        				 <div class="row">
+        				 <div class="col-md-6 col-md-offset-3">
+        				 	<div class="space-medium"></div>
+        				 	<input type="text" name="otp" id="otp" class="form-control" value="" required="required">
+        				 	</div>
+        				 </div>						 
+        				 <div class="otpError"></div>
+        				 <div class="space-medium"></div>
+        			</div>
+        			<div class="modal-footer">						
+        				
+        				<button type="button" class="btn btn-primary myBtn1 checkOTP">Submit</button>
+        				<button type="button" class="btn btn-primary myBtn1 resendOTP">Resend OTP</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="modal fade" id="otpBox1">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        				<h4 class="modal-title">OTP Verification</h4>
+        			</div>
+        			<div class="modal-body text-center" >
+        				 <h4>Enter OTP recieved in your mobile/Registered Email Address.</h4>
+        				 <div class="row">
+        				 <div class="col-md-6 col-md-offset-3">
+        				 	<div class="space-medium"></div>
+        				 	<input type="text" name="otp1" id="otp1" class="form-control" value="" required="required">
+        				 	</div>
+        				 </div>						 
+        				 <div class="otpError"></div>
+        				 <div class="space-medium"></div>
+        			</div>
+        			<div class="modal-footer">						
+        				
+        				<button type="button" class="btn btn-primary myBtn1 checkOTP1">Submit</button>
+        				<button type="button" class="btn btn-primary myBtn1 resendOTP1">Resend OTP</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+
+        <!-- Javascript -->
+        <script  src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/retina-1.1.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/mine.js"></script>
+        <script type="text/javascript" src="js/bootstrap-dropdown.js"></script> 		
+        <!-- <script type="text/javascript" src="js/script.js"></script>   -->
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"8e14f1601dc3b573b48b7e8183ce37217366c214586ae8254135988b7406e3d5", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+    </body>
+
+
+
+
+</html>
